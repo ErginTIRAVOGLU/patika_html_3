@@ -1,0 +1,40 @@
+body{
+    background-color: #e0c9a9; 
+}
+ body > article{
+    text-align: center;
+ }
+.text-yatik{
+    font-style: italic;
+}
+
+.menu-list{
+    text-align: center;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.menu-list li{
+    display: inline;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.malzeme-list  {
+    list-style-type: none;
+    list-style-position: outside;
+    width: 500px;
+    display: inline-block;
+}
+.malzeme-list >  li  {
+    font-weight: bold;
+    text-align: left;
+}
+.malzeme-list >  li > ul > li {
+    list-style-type: disc;
+    list-style-position: outside;
+    font-weight: normal;
+}
+.font-normal li {
+    font-weight: normal;
+}
